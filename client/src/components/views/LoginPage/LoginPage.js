@@ -107,7 +107,7 @@ function LoginPage(props) {
               </Form.Item>
 
               <Form.Item required>
-                <Input
+                <Input.Password
                   id="password"
                   prefix={
                     <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
